@@ -1,30 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/css/style.css">
-  
-  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&family=Nunito+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+
+
   <title>Frontend Mentor | Time tracking dashboard</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  <section>
-    <div class="card-profile">Profile<div class="card-profile2"></div></div>
-    <div class="card card-work" ><svg class="img-work" width="79" height="79" xmlns="http://www.w3.org/2000/svg"><path d="m18.687 10.43 15.464 30.906c.31.682.743 1.322 1.3 1.88.558.557 1.198.99 1.714 1.217L68.237 59.98 52.484 75.732a8.025 8.025 0 0 1-11.355 0L2.934 37.538a8.025 8.025 0 0 1 0-11.356L18.687 10.43Zm19.345-7.99 10.839 10.838 2.065-2.064a5.845 5.845 0 0 1 8.258 0l8.258 8.259a5.845 5.845 0 0 1 0 8.258l-2.064 2.064 10.839 10.84a8.025 8.025 0 0 1 0 11.355l-4.728 4.728L39.126 40.53a1.963 1.963 0 0 1-.578-.413 1.963 1.963 0 0 1-.413-.578L21.95 7.168l4.728-4.728a8.025 8.025 0 0 1 11.355 0Zm17.033 12.903-2.064 2.065 8.258 8.258 2.064-2.064-8.258-8.259Z" fill="#D96C47" fill-rule="nonzero"/></svg><div class="card2"></div></div>
-    <div class="card"><div class="card2"></div></div>
-    <div class="card"><div class="card2"></div></div>
-    <div class="card"><div class="card2"></div></div>
-    <div class="card"><div class="card2"></div></div>
-    <div class="card"><div class="card2"></div></div>
-  </section>
+  <main>
+    <section class="container">
+
+      <div class="card-profile">
+        <div class="profile">
+          <div class="img">
+            <img class="logo" src="/images/image-jeremy.png" alt="Picture of Jeremy">
+          </div>
+          <div class="profile profile-name">
+            <h1 class="profile profile-h1">Report for</h1>
+            <h2 class="profile profile-h2">Jeremy Robson</h2>
+          </div>
+        </div>
+        <div class="nav-profile">
+          <button class="button">Daily</button>
+          <button class="button">Weekly</button>
+          <button class="button">Monthly</button>
+        </div>
+      </div>
+
+
+      <div class="card card-work">
+
+        <img src="/images/icon-work.svg" alt="">
+        <div class="card2">2</div>
+      </div>
+      <div class="card">1 <img src="/images/icon-play.svg" alt="">
+        <div class="card2">2</div>
+      </div>
+      <div class="card">1 <img src="/images/icon-study.svg" alt="">
+        <div class="card2">2</div>
+      </div>
+      <div class="card">1 <img src="/images/icon-exercise.svg" alt="">
+        <div class="card2">2</div>
+      </div>
+      <div class="card">1 <img src="/images/icon-social.svg" alt="">
+        <div class="card2">2</div>
+      </div>
+      <div class="card">1 <img src="/images/icon-self-care.svg" alt="">
+        <div class="card2">2</div>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>

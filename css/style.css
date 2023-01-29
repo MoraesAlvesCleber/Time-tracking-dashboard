@@ -4,17 +4,21 @@
     --Soft-blue-play: hsl(195, 74%, 62%);
     --Light-red-study: hsl(348, 100%, 68%);
     --Lime-green-exercise: hsl(145, 58%, 55%);
-    --Violet-social: hsl(264, 64%, 52%) --Soft orange (self care): hsl(43, 84%, 65%);
-
-
-
+    --Violet-social: hsl(264, 64%, 52%);
+    --soft-orange:vhsl(43, 84%, 65%);
     --Very-dark-blue: hsl(226, 43%, 10%);
     --Dark-blue: hsl(235, 46%, 20%);
     --Desaturated-blue: hsl(235, 45%, 61%);
     --Pale-Blue: hsl(236, 100%, 87%);
+   
+    /*font family*/
+    --DM : 'DM Sans', sans-serif;
+    --nunito: 'Nunito Sans', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+
 }
- 
-body{
+
+body {
     background: var(--Very-dark-blue);
     display: flex;
     width: 100vw;
@@ -22,6 +26,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 section {
     background: var(--Very-dark-blue);
     width: 60vw;
@@ -37,29 +42,83 @@ section {
     grid-row-start: 1;
     grid-row-end: 3;
     border-radius: 10px;
-}
-.card-profile2{
-    background:var(--Blue);
-     
-    border-radius: 10px;
+    height: 270px;
+    
 }
 
+.logo {
+    scale: 0.3;
+    border: 2;
+    border: 10px solid;
+    border-color: white;
+    border-radius: 130px;
+    margin-top: -68px;
+    margin-left: -75px;
+}
+.img{
+    height: 130px;
+}
+
+.profile{
+    font-family:var(--nunito);
+    margin-left: 10px;
+    color: white;
+}
+
+
+.profile-h1{
+    font-size: 14px;
+    
+    font-weight:300;
+    margin: 0;
+
+}
+.profile-h2{
+    font-size: 40px;
+    font-weight: 300;
+    margin: 0;
+
+}
+
+.nav-profile {
+    background-color: var(--Dark-blue);
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.button{
+    background: transparent;
+    border: transparent;
+    font-family: var(--poppins);
+    font-weight: 300;
+    color: white;
+    margin-left: 15px;
+    padding: 10px
+}
 .card {
     background-color: var(--Blue);
     border-radius: 10px;
-    display: flex;
+    /*display: flex;
     align-items: flex-end;
     flex-direction: column;
-    overflow: hidden;
+    overflow: hidden;*/
 }
-.card2{
-    background:var(--Dark-blue);
-     
-    border-radius: 10px;
+
+.card2 {
+    background: var(--Dark-blue);
+
+    /* border-radius: 10px;*/
 }
-.card-work{
+
+.card-work {
     background: var(--Light-red-work);
 }
-.img-work{
-    scale: 0.5;
+
+.img-work {
+    /*scale: 0.7;
+    top: -18px;
+    position: relative;*/
 }
