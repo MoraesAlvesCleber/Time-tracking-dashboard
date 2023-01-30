@@ -15,7 +15,6 @@
     --DM : 'DM Sans', sans-serif;
     --nunito: 'Nunito Sans', sans-serif;
     --poppins: 'Poppins', sans-serif;
-
 }
 
 body {
@@ -43,10 +42,9 @@ section {
     grid-row-end: 3;
     border-radius: 10px;
     height: 270px;
-    
 }
 
-.logo {
+.logo-profile {
     scale: 0.3;
     border: 2;
     border: 10px solid;
@@ -55,7 +53,8 @@ section {
     margin-top: -68px;
     margin-left: -75px;
 }
-.img{
+
+.img-profile{
     height: 130px;
 }
 
@@ -65,7 +64,6 @@ section {
     color: white;
 }
 
-
 .profile-h1{
     font-size: 14px;
     
@@ -73,6 +71,7 @@ section {
     margin: 0;
 
 }
+
 .profile-h2{
     font-size: 40px;
     font-weight: 300;
@@ -89,6 +88,7 @@ section {
     align-items: flex-start;
     justify-content: center;
 }
+
 .button{
     background: transparent;
     border: transparent;
@@ -98,13 +98,24 @@ section {
     margin-left: 15px;
     padding: 10px
 }
+
 .card {
-    background-color: var(--Blue);
+    background-color: var(--Dark-blue);
     border-radius: 10px;
     /*display: flex;
     align-items: flex-end;
     flex-direction: column;
     overflow: hidden;*/
+}
+.work-img{
+    position: relative;
+    left: 100px;
+}
+
+.card-text-img{
+    background-color: var(--Light-red-work);
+    height: 80px;
+    border-radius: 10px;
 }
 
 .card2 {
