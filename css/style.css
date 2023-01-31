@@ -29,12 +29,13 @@ body {
 
 section {
     background: var(--Very-dark-blue);
-    width: 60vw;
+    width: 46vw;
     height: 60vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
     border-radius: 10px;
+    justify-content: center;
 }
 
 .card-profile {
@@ -43,6 +44,7 @@ section {
     grid-row-end: 3;
     border-radius: 10px;
     height: 270px;
+    width: 210px;
 }
 
 .logo-profile {
@@ -82,7 +84,7 @@ section {
 
 .nav-profile {
     background-color: var(--Dark-blue);
-    height: 150px;
+    height: 187px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -156,10 +158,13 @@ h4 {
 h2 {
     color: var(--pale-blue);
 }
+
 h1, h3, h2, h4 {
     margin: 0;
     font-weight: 300;
+    margin-right: 23px;
 }
+
 h2 {
     display: block;
     font-size: 1.5em;
