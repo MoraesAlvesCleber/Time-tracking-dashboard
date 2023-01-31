@@ -107,12 +107,12 @@ section {
     flex-direction: column;
     overflow: hidden;*/
 }
-.work-img{
+.work-img{/*image-work*/
     position: relative;
     left: 100px;
 }
 
-.card-text-img{
+.card-text-img{/*card*/
     background-color: var(--Light-red-work);
     height: 80px;
     border-radius: 10px;
