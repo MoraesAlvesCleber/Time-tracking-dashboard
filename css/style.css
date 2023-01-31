@@ -10,6 +10,7 @@
     --Dark-blue: hsl(235, 46%, 20%);
     --Desaturated-blue: hsl(235, 45%, 61%);
     --Pale-Blue: hsl(236, 100%, 87%);
+    --Yellow: rgb(241,199,91);
    
     /*font family*/
     --DM : 'DM Sans', sans-serif;
@@ -172,6 +173,33 @@ h2 {
     color: var(--desatured-blue);
     font-size: 12px;
  
+}
 
+.play{
+    background-color: var(--Soft-blue-play);
+    border-radius: 10px 10px 0 0;
+    height: 2.5rem;
+}
 
- 
+.study{
+    background-color: var(--Light-red-study);
+    border-radius: 10px 10px 0 0;
+    height: 2.5rem;
+}
+
+.exercise{
+    background-color: var(--Lime-green-exercise);
+    border-radius: 10px 10px 0 0;
+    height: 2.5rem;
+}
+
+.social{
+    background-color: var(--Violet-social);
+    border-radius: 10px 10px 0 0;
+    height: 2.5rem;
+}
+.self{
+    background-color: var(--Yellow);
+    border-radius: 10px 10px 0 0;
+    height: 2.5rem;
+}
