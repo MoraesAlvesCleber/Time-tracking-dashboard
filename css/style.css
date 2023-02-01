@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&family=Space+Grotesk:wght@500&display=swap');
+
 :root {
     --Blue: hsl(246, 80%, 60%);
     --Light-red-work: hsl(15, 100%, 70%);
@@ -5,17 +7,18 @@
     --Light-red-study: hsl(348, 100%, 68%);
     --Lime-green-exercise: hsl(145, 58%, 55%);
     --Violet-social: hsl(264, 64%, 52%);
-    --soft-orange:vhsl(43, 84%, 65%);
+    --soft-orange: vhsl(43, 84%, 65%);
     --Very-dark-blue: hsl(226, 43%, 10%);
     --Dark-blue: hsl(235, 46%, 20%);
     --Desaturated-blue: hsl(235, 45%, 61%);
     --Pale-Blue: hsl(236, 100%, 87%);
-    --Yellow: rgb(241,199,91);
-   
+    --Yellow: rgb(241, 199, 91);
+
     /*font family*/
-    --DM : 'DM Sans', sans-serif;
+    --DM: 'DM Sans', sans-serif;
     --nunito: 'Nunito Sans', sans-serif;
     --poppins: 'Poppins', sans-serif;
+    --font-rubik: 'Rubik', sans-serif;
 }
 
 body {
@@ -57,25 +60,25 @@ section {
     margin-left: -75px;
 }
 
-.img-profile{
+.img-profile {
     height: 130px;
 }
 
-.profile{
-    font-family:var(--nunito);
+.profile {
+    font-family: var(--nunito);
     margin-left: 10px;
     color: white;
 }
 
-.profile-h1{
+.profile-h1 {
     font-size: 14px;
-    
-    font-weight:300;
+
+    font-weight: 300;
     margin: 0;
 
 }
 
-.profile-h2{
+.profile-h2 {
     font-size: 40px;
     font-weight: 300;
     margin: 0;
@@ -92,7 +95,7 @@ section {
     justify-content: center;
 }
 
-.button{
+.button {
     background: transparent;
     border: transparent;
     font-family: var(--poppins);
@@ -101,17 +104,20 @@ section {
     margin-left: 15px;
     padding: 10px
 }
+
 .work {
     background-color: var(--Light-red-work);
     border-radius: 10px 10px 0 0;
     height: 2.5rem;
 }
+
 .img {
     overflow-clip-margin: content-box;
     overflow: clip;
     position: relative;
     left: 115px;
 }
+
 .description {
     display: grid;
     background-color: var(--Dark-blue);
@@ -127,13 +133,14 @@ section {
     z-index: 1;
     height: 150px;
 }
- 
+
 .top-part {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0.7rem;
 }
+
 h4 {
     display: block;
     margin-block-start: 1.33em;
@@ -141,7 +148,10 @@ h4 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    font-family: var(--nunito);
+    font-size: 18px;
 }
+
 .ellipsis {
     width: 20px;
     height: 6px;
@@ -150,60 +160,63 @@ h4 {
 .bottom-part {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px; 
+    margin-top: 10px;
     flex-direction: column;
     height: 50px;
     margin: 0.7rem;
-}
-h2 {
-    color: var(--pale-blue);
 }
 
 h1, h3, h2, h4 {
     margin: 0;
     font-weight: 300;
-    margin-right: 23px;
+    margin-right: 48px;
 }
 
 h2 {
+    color: var(--pale-blue);
     display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    font-size: 46px;
+    margin-block-start: 0;
+    margin-block-end: 14px;
+    margin-inline-start: 17px;
+    margin-inline-end: 5px;
     font-weight: bold;
+    font-family: var(--DM);
+
 }
+
 .last-time {
     color: var(--desatured-blue);
     font-size: 12px;
- 
+    position: relative;
+    left: 14px;
 }
 
-.play{
+.play {
     background-color: var(--Soft-blue-play);
     border-radius: 10px 10px 0 0;
     height: 2.5rem;
 }
 
-.study{
+.study {
     background-color: var(--Light-red-study);
     border-radius: 10px 10px 0 0;
     height: 2.5rem;
 }
 
-.exercise{
+.exercise {
     background-color: var(--Lime-green-exercise);
     border-radius: 10px 10px 0 0;
     height: 2.5rem;
 }
 
-.social{
+.social {
     background-color: var(--Violet-social);
     border-radius: 10px 10px 0 0;
     height: 2.5rem;
 }
-.self{
+
+.self {
     background-color: var(--Yellow);
     border-radius: 10px 10px 0 0;
     height: 2.5rem;
