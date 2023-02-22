@@ -49,6 +49,23 @@ section {
     height: 270px;
     width: 210px;
 }
+@media screen and (max-width: 768px) and (min-width: 320px) {
+    body{
+        width: 64vw;
+        height: 65vh;
+    }
+    .container{
+        display: block;
+    }
+    .card-description{
+        display: block;
+        width: 80vw;
+    }
+    .card-profile{
+        height: 444px;
+        width: 286px;
+    }
+}
 
 .logo-profile {
     scale: 0.3;
